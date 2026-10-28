@@ -19,6 +19,12 @@ export const metadata: Metadata = {
     template: "%s | شانگهای سیتی",
   },
   description: SITE_CONFIG.description,
+  
+  // ✅ تگ وریفای گوگل به روش صحیح Next.js در اینجا قرار گرفت
+  verification: {
+    google: "WBTAWZ3y7jDSShKpJnbTNywvBU0GwHGQbhlg2secKYA",
+  },
+  
   keywords: [
     "تجارت با چین",
     "واردات از شانگهای",
